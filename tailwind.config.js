@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'ceuDia':'url("./img/ceu-escuro.svg")',
+        
+      }
+    },
   },
   plugins: [],
 }
