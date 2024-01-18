@@ -10,6 +10,9 @@ module.exports = {
       padding:{
         'px90':'90px',
       },
+      fontFamily: {
+        Roboto: ['Roboto', 'sans-serif'],
+      },
     },
   },
   plugins: [],

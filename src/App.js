@@ -6,17 +6,9 @@ import { useState } from 'react';
 
 function App() {
 
-  const [ativo, setAtivo] = useState(false)
-    
-
-    function toggle({setAtivo}){
-        setAtivo(!ativo)
-        console.log(ativo)
-       
-
-    }
+ 
   return (
-    <div className="App overflow-x-hidden">
+    <div className="App overflow-x-hidden font-Roboto">
       <Navbar/>
       <Sidebar/>
       <Home/>
