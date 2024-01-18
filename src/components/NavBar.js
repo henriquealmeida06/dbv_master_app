@@ -1,17 +1,19 @@
 import { GiHamburgerMenu } from "react-icons/gi";
-import Mochila from './../img/mochila.svg';
-import { FaPowerOff } from "react-icons/fa";
+import Sidebar from "./Sidebar";
 
-function Navbar(){
+
+
+function Navbar({onClick}){
+
+    
+
     return(
-        <div className="flex px-5 py-2 w-screen bg-slate-800 text-white fixed">
-            <div className=" w-56 flex justify-center items-center">
-            <img className="w-11 rounded-full" src={Mochila}/>
-            </div>
-            <div className="  flex flex-1 justify-between items-center px-10 ">
-                <span className="text-xl cursor-pointer"><GiHamburgerMenu /></span>
-                <p className="font-semibold text-lg tracking-widest ">DBV <span>MASTER</span></p>
-                <li className="list-none text-lg cursor-pointer"><FaPowerOff /></li>
+        <div className="flex px-5 py-4 w-screen  lg:bg-slate-800 text-white fixed z-20">
+            
+            <div className="  flex flex-1 justify-start lg:justify-between items-center px-40">
+                <span onClick={onClick} className="text-xl cursor-pointer lg:bg-transparent lg:p-0 bg-slate-800 rounded-full p-3"><GiHamburgerMenu /></span>
+                <p className="font-semibold text-lg tracking-widest hidden lg:inline-flex">DBV MASTER</p>
+                
             </div>
         </div>
     )

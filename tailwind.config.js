@@ -6,7 +6,10 @@ module.exports = {
       backgroundImage:{
         'ceuDia':'url("./img/ceu-escuro.svg")',
         
-      }
+      },
+      padding:{
+        'px90':'90px',
+      },
     },
   },
   plugins: [],
