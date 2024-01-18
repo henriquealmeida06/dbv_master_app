@@ -24,7 +24,7 @@ function Navbar({onClick}){
                </div>
                 <div className="flex">
                 
-                <span className="text-2xl items-center cursor-pointer"><IoMdNotificationsOutline /></span>
+                <span className="text-2xl items-center cursor-pointer  bg-slate-800 rounded-full p-3"><IoMdNotificationsOutline /></span>
                 </div>
                 
             </div>
