@@ -10,8 +10,8 @@ import estrela35 from './../img/classificacao_estrelas/estrelas35.png'
 
 function Home(){
     return(
-        <div className="min-h-screen bg-ceuDia bg-cover bg-no-repeat pt-20 px-10 lg:px-5 pt-40 grid grid-cols-1 lg:grid-cols-2">
-            <div className=" bg-black py-5 grid grid-cols-1 rounded-md lg:grid-cols-2 justify-evenly items-center bg-opacity-60 px-2">
+        <div className="min-h-screen bg-ceuDia bg-cover bg-no-repeat pt-20  lg:px-5  grid grid-cols-1 lg:grid-cols-2">
+            <div className=" bg-black py-5 grid grid-cols-1 rounded-md px-14 lg:grid-cols-2 justify-evenly items-center bg-opacity-60">
                 <div className="flex flex-col justify-center items-center gap-3">
                 <div className="border-2 border-black w-28 ">
                     <img src={fotoPerfil}/>
@@ -58,7 +58,7 @@ function Home(){
 
             </div>
            <div className="border border-red-500">
-            <p>sd</p>
+            
            </div>
             </div>
         
