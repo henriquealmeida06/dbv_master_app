@@ -3,7 +3,7 @@ import { GrGroup } from "react-icons/gr";
 import { LuBrain } from "react-icons/lu";
 import { BiBible } from "react-icons/bi";
 import { LiaMedalSolid } from "react-icons/lia";
-import perfil from './../img/perfil1.jpeg'
+import perfil from './../img/fotos/henrique.png'
 import Navbar from "./NavBar";
 import { useState } from "react";
 
