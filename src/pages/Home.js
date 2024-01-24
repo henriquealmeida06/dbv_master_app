@@ -13,6 +13,10 @@ function Home(){
                 <BarraDeProgresso meta="FREQUÊNCIA"/>
                 <BarraDeProgresso meta="CUMPRIMENTO DE CLASSES"/>
                 <BarraDeProgresso meta="MENSALIDADE"/>
+                <BarraDeProgresso meta="UNIFORME"/>
+                <BarraDeProgresso meta="DISCIPLINA"/>
+                <BarraDeProgresso meta="PARTICIPAÇÃO ATIVIDADE EXTERNA"/>
+                
             </div>
           
             </div>
