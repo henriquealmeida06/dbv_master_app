@@ -33,9 +33,33 @@ function PerfilHome({foto, nome, cargo, estrelas}){
                 </div>
                 </div>
                 
-                <div className='flex w-96 bg-black bg-opacity-50 text-white p-1 gap-1  text-base'>
+                <div className='flex flex-col text-left w-56 lg:w-96 bg-black bg-opacity-50 text-white p-1 gap-3 text-sm lg:text-base'>
                     
-                    <p>Marcelo Henrique Silva de Almeida</p>
+                    <div className='flex flex-col justify-center items-center'>
+                    <p>CLUBE</p>
+                    <p>Conquistadores da Selva</p>
+                    </div>
+
+                    <div className='flex flex-col justify-center items-center gap-1'>
+                    <p>Classes:</p>
+                    <div className='flex gap-1'>
+                    <img className='w-5 lg:w-7' src={amigoClasse}/>
+                    <img className='w-5 lg:w-7' src={companheiroClasse}/>
+                    <img className='w-5 lg:w-7' src={pesquisadorClasse}/>
+                    <img className='w-5 lg:w-7' src={pioneiroClasse}/>
+                    <img className='w-5 lg:w-7' src={excursionistaClasse}/>
+                    <img className='w-5 lg:w-7' src={guiaClasse}/>
+                    <img className='w-5 lg:w-7' src={liderClasse}/>
+                    </div>
+                    </div>
+                    <div className='flex flex-col justify-center items-center'>
+                    <p>Especialidades:</p>
+                    <p>61</p>
+                    </div>
+                    <div className='flex flex-col justify-center items-center'>
+                        <p>Ranking do Clube:</p>
+                        <p>3° Lugar</p>
+                    </div>
                 </div>
                 
 
