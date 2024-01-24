@@ -9,7 +9,7 @@ function Home(){
             <div className="">
             <PerfilHome foto={fotoPerfil} nome="HENRIQUE" cargo="Secretário" estrelas={estrela7}/>
             </div>
-            <div className="  w-screen mt-5 lg:mt-0 px-20 lg:w-auto">
+            <div className="  w-screen mt-5 lg:mt-0 px-10 lg:w-auto">
                 <BarraDeProgresso meta="FREQUÊNCIA"/>
                 <BarraDeProgresso meta="CUMPRIMENTO DE CLASSES"/>
                 <BarraDeProgresso meta="MENSALIDADE"/>
