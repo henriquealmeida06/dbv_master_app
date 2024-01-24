@@ -35,13 +35,13 @@ function PerfilHome({foto, nome, cargo, estrelas}){
                 
                 <div className='flex flex-col text-left w-56 lg:w-96 bg-black bg-opacity-50 text-white p-1 gap-3 text-sm lg:text-base'>
                     
-                    <div className='flex flex-col justify-center items-center'>
+                    <div className='flex flex-col justify-center items-center bg-black bg-opacity-30'>
                     <p>CLUBE</p>
                     <p>Conquistadores da Selva</p>
                     </div>
 
-                    <div className='flex flex-col justify-center items-center gap-1'>
-                    <p>Classes:</p>
+                    <div className='flex flex-col justify-center items-center gap-1  bg-black bg-opacity-30'>
+                    <p>CLASSES:</p>
                     <div className='flex gap-1'>
                     <img className='w-5 lg:w-7' src={amigoClasse}/>
                     <img className='w-5 lg:w-7' src={companheiroClasse}/>
@@ -52,12 +52,12 @@ function PerfilHome({foto, nome, cargo, estrelas}){
                     <img className='w-5 lg:w-7' src={liderClasse}/>
                     </div>
                     </div>
-                    <div className='flex flex-col justify-center items-center'>
-                    <p>Especialidades:</p>
+                    <div className='flex flex-col justify-center items-center  bg-black bg-opacity-30'>
+                    <p>ESPECIALIDADES:</p>
                     <p>61</p>
                     </div>
-                    <div className='flex flex-col justify-center items-center'>
-                        <p>Ranking do Clube:</p>
+                    <div className='flex flex-col justify-center items-center  bg-black bg-opacity-30'>
+                        <p>RANKING DO CLUBE:</p>
                         <p>3° Lugar</p>
                     </div>
                 </div>
