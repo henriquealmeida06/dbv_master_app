@@ -63,8 +63,8 @@ function PerfilHome({foto, nome, cargo, estrelas}){
                     <p>61</p>
                     </div>
                     <div className='flex flex-col justify-center items-center  bg-black bg-opacity-30'>
-                        <p>HIERARQUIA:</p>
-                        <p>Líder</p>
+                        <p>RANKING GERAL:</p>
+                        <p>12° Lugar</p>
                     </div>
                     <div className='flex flex-col justify-center items-center  bg-black bg-opacity-30'>
                         <p>RANKING DO CLUBE:</p>
