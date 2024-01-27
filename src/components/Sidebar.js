@@ -26,7 +26,7 @@ function Sidebar({}){
             
             
             
-        <div className={`transition-transform duration-300 w-56 h-screen bg-slate-800 flex flex-col text-gray-200  lg:block py-20 fixed z-10 " ${ativo ? 'translate-x-0':'-translate-x-60'}`}>
+        <div className={`transition-transform duration-300 w-56 h-screen bg-slate-800 flex flex-col text-gray-200  lg:block py-20 fixed z-20 " ${ativo ? 'translate-x-0':'-translate-x-60'}`}>
             <div className="flex gap-3 items-center mb-5 px-3">
             <div className="rounded-full overflow-hidden h-12 w-12">
             <img src={perfil}/>

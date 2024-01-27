@@ -11,10 +11,10 @@ import { MdSportsScore } from "react-icons/md";
 
 function PerfilHome({foto, nome, cargo, estrelas}){
     return(
-        <div className=' w-px400 lg:w-px420 flex overflow-hidden rounded-tr-md rounded-br-md lg:h-60 h-64 transform transition-transform'>
+        <div className=' w-px400 lg:w-px420 flex overflow-hidden rounded-tr-md rounded-br-md lg:h-72 h-64 transform transition-transform'>
 
 <div className="flex ">
-                <div className="flex rounded-md flex-col h-64 lg:h-60 w-32 items-center p-2 border-2 border-yellow-500 overflow-hidden bg-slate-800 ">
+                <div className="flex rounded-md flex-col h-64 lg:h-72 w-32 items-center p-2 border-2 border-yellow-500 overflow-hidden bg-slate-800 ">
                 <div className=" w-28 overflow-hidden ">
                     <img src={foto}/>
                     
@@ -25,10 +25,7 @@ function PerfilHome({foto, nome, cargo, estrelas}){
                 </div>
                 <div className=' pt-1 mt-1 text-white flex gap-1 justify-center items-center '>
                 
-                <div className=' bg-black bg-opacity-20 py-1 rounded-xl gap-2 flex px-4 '>
-               <span className=' text-xl text-yellow-400'><MdSportsScore /></span>
-               <p>370</p>
-               </div>
+                <p>LÍDER</p>
 
                 </div>
                 <p className="text-white  text-base pt-1">
@@ -42,9 +39,9 @@ function PerfilHome({foto, nome, cargo, estrelas}){
                 </div>
                 </div>
                 
-                <div className='flex flex-col text-left w-56 lg:w-80 bg-black bg-opacity-50 text-white p-1 gap-3 text-sm lg:text-base'>
+                <div className='flex flex-col text-left w-56 lg:w-80 bg-black bg-opacity-50 text-white p-1 gap-3 text-sm lg:pt-3'>
                     
-                    <div className='flex flex-col justify-center items-center bg-black bg-opacity-30'>
+                    <div className='flex flex-col justify-center items-center bg-black bg-opacity-30 lg:pt-1'>
                     <p>CLUBE</p>
                     <p>Conquistadores da Selva</p>
                     </div>

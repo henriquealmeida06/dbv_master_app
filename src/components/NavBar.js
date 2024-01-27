@@ -10,7 +10,7 @@ function Navbar({onClick}){
     
 
     return(
-        <div className="flex py-4 w-screen  lg:bg-slate-800 text-white fixed z-20 ">
+        <div className="flex py-4 w-screen  lg:bg-slate-800 text-white fixed z-30 ">
             
             <div className="  flex flex-1 justify-between items-center px-5 ">
 
