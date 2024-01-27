@@ -10,10 +10,10 @@ import liderClasse from './../img/classes/lider.svg'
 
 function PerfilHome({foto, nome, cargo, estrelas}){
     return(
-        <div className=' w-px400 lg:w-px420 flex overflow-hidden rounded-tr-md rounded-br-md lg:h-60 h-52 transform transition-transform'>
+        <div className=' w-px400 lg:w-px420 flex overflow-hidden rounded-tr-md rounded-br-md lg:h-60 h-64 transform transition-transform'>
 
 <div className="flex ">
-                <div className="flex rounded-md flex-col h-52 lg:h-60 w-32 items-center p-2 border-2 border-yellow-500 overflow-hidden bg-slate-800">
+                <div className="flex rounded-md flex-col h-64 lg:h-60 w-32 items-center p-2 border-2 border-yellow-500 overflow-hidden bg-slate-800">
                 <div className=" w-28 overflow-hidden ">
                     <img src={foto}/>
                     
@@ -59,6 +59,10 @@ function PerfilHome({foto, nome, cargo, estrelas}){
                     <div className='flex flex-col justify-center items-center  bg-black bg-opacity-30'>
                     <p>ESPECIALIDADES:</p>
                     <p>61</p>
+                    </div>
+                    <div className='flex flex-col justify-center items-center  bg-black bg-opacity-30'>
+                        <p>HIERARQUIA:</p>
+                        <p>Líder</p>
                     </div>
                     <div className='flex flex-col justify-center items-center  bg-black bg-opacity-30'>
                         <p>RANKING DO CLUBE:</p>
