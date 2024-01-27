@@ -1,6 +1,8 @@
 {
   "short_name": "Dbv Master",
   "name": "Dbv Master",
+  "splash_screen": "/img/app/logo_app_principal.png",
+  "splash_screen_size": "1920x1080",
   "icons": [
     {
       "src": "favicon.ico",
@@ -21,8 +23,7 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "splash_screen": "/img/app/logo_app_principal.png",
-  "splash_screen_size": "1920x1080"
+  "background_color": "#ffffff"
+  
 
 }
