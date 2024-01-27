@@ -22,6 +22,10 @@ function PerfilHome({foto, nome, cargo, estrelas}){
                 <div className="bg-blue-900 w-screen">
                     <p className="text-white">{nome}</p>
                 </div>
+                <div className='flex flex-col pt-1'>
+                
+                    <p className="text-white  text-base">LÍDER</p>
+                </div>
                 <p className="text-white  text-base pt-1">
                     {cargo}
                 </p>
