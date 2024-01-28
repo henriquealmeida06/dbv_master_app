@@ -17,10 +17,10 @@ function Login(){
                 <input className='border outline-none text-white border-white bg-transparent placeholder:text-white px-3 py-2 rounded-full' type='password' placeholder='Senha'/>
             </form>
             <p className='text-sm text-gray-200 pt-3 cursor-pointer'>Esqueceu sua senha?</p>
-            <button className='bg-blue-500 px-6 py-2 cursor-pointer text-white rounded-full mt-3'>Entrar</button>
+            <button className='bg-blue-500 px-6 py-2 cursor-pointer hover:bg-blue-300 hover:text-blue-900 hover:font-medium text-white rounded-full mt-3'>Entrar</button>
             <div className='flex gap-2'>
                 <p  className='text-sm text-gray-200 pt-3'>Primeira vez?</p>
-                <p  className='text-sm text-white font-Roboto cursor-pointer pt-3 border-b border-white'>Cadastrar</p>
+                <p  className='text-sm text-white font-Roboto cursor-pointer pt-3 border-b border-white hover:text-gray-400'>Cadastrar</p>
             </div>
 
             </div>
