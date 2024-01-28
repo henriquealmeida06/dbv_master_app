@@ -5,7 +5,7 @@ function Login(){
         <div className="h-screen bg-blue-900 font-Roboto flex flex-col justify-center items-center">
             
             <div className='bg-blue-900 bg-opacity-80 flex flex-col justify-center items-center w-90 p-5 rounded-lg'>
-            <div className='flex justify-center items-center gap-2 bg-black bg-opacity-25 py-2 px-16 rounded-full'>
+            <div className='flex justify-center items-center gap-2 bg-black bg-opacity-25 py-2 px-8 rounded-full'>
             <img className='w-10' src={Logo}/>
             <div className='flex'>
             <p className='text-4xl text-yellow-500'>DBV</p>
@@ -13,7 +13,7 @@ function Login(){
             </div>
             </div>
             <form className='flex flex-col pt-6 gap-4'>
-                <input className='border outline-none w-96 text-white border-white bg-transparent placeholder:text-white px-3 py-2 rounded-full' type='text' placeholder='Login'/>
+                <input className='border outline-none w-80 text-white border-white bg-transparent placeholder:text-white px-3 py-2 rounded-full' type='text' placeholder='Login'/>
                 <input className='border outline-none text-white border-white bg-transparent placeholder:text-white px-3 py-2 rounded-full' type='password' placeholder='Senha'/>
             </form>
             <p className='text-sm text-gray-200 pt-3 cursor-pointer'>Esqueceu sua senha?</p>
