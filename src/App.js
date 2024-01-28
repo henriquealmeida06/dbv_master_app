@@ -10,7 +10,10 @@ function App() {
  
   return (
     <div className="App overflow-x-hidden font-Roboto">
-      <Login/>
+      <Navbar/>
+      <Sidebar/>
+      <Home/>
+      
      
 
       

@@ -5,7 +5,7 @@ import BarraDeProgresso from "../components/BarraDeProgresso";
 
 function Home(){
     return(
-        <div className="min-h-screen bg-ceuDia bg-cover bg-no-repeat pt-24 lg:px-5 flex flex-col justify-start items-center   lg:grid grid-cols-2 lg:content-start lg:items-center ">
+        <div className="min-h-screen bg-blue-900 pt-24 lg:px-5 flex flex-col justify-start items-center   lg:grid grid-cols-2 lg:content-start lg:items-center ">
             <div className="  lg:flex lg:justify-center">
             <PerfilHome foto={fotoPerfil} nome="HENRIQUE" cargo="Secretário" estrelas={estrela7}/>
             </div>
