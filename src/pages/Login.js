@@ -1,4 +1,5 @@
 import Logo from './../img/app/logo_login.png'
+import { Link } from 'react-router-dom';
 
 function Login(){
     return(
@@ -20,7 +21,9 @@ function Login(){
             <button className='bg-blue-500 px-6 py-2 cursor-pointer hover:bg-blue-300 hover:text-blue-900 hover:font-medium text-white rounded-full mt-3'>Entrar</button>
             <div className='flex gap-2'>
                 <p  className='text-sm text-gray-200 pt-3'>Primeira vez?</p>
+                <Link to='/cadastrar'>
                 <p  className='text-sm text-white font-Roboto cursor-pointer pt-3 border-b border-white hover:text-gray-400'>Cadastrar</p>
+                </Link>
             </div>
 
             </div>
