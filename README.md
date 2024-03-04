@@ -10,6 +10,13 @@ DBV Master é uma aplicação em fase de desenvolvimento que oferece funcionalid
 - Controle de chamadas
 - Pontuação e ranking da equipe
 
+- ## Tecnologia utilizada:
+
+- JavaScript
+- React - (React Router, UseState)
+- Tailwind
+
+
 ## Instruções de Instalação
 
 1. Clone o repositório para sua máquina.
