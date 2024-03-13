@@ -2,13 +2,19 @@
 
 ## Descrição
 
-DBV Master é uma aplicação em fase de criação que oferece funcionalidades avançadas para o gerenciamento de equipes em Clube de Desbravadores.
+DBV Master é uma aplicação em fase de desenvolvimento que oferece funcionalidades avançadas para o gerenciamento de equipes em Clube de Desbravadores.
 
 ## Funcionalidades Principais
 
 - Gerenciamento de logins de equipe
 - Controle de chamadas
 - Pontuação e ranking da equipe
+
+- ## Tecnologia utilizada:
+
+- JavaScript
+- React - (React Router, UseState)
+- Tailwind
 
 ## Instruções de Instalação
 
